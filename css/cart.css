@@ -1,0 +1,39 @@
+@import url('navbar.css');
+@import url('footer.css');
+
+.content-holder{
+    text-align: center;
+    width:80%;
+    margin: 0 auto;
+  
+}
+
+
+
+.cart-item-mid img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.cart-item{
+    width: 60%;
+    margin: 0 auto 20px auto;
+   
+}
+
+
+@media (max-width:1000px){
+    .cart-item{
+        width: 100%;
+    }
+}
+
+@media (max-width:769px){
+    .item-holder{
+        flex-direction: column;
+    }
+    .cart-item-right{
+        margin-top: 10px;
+    }
+}

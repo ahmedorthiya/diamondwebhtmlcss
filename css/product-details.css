@@ -1,0 +1,41 @@
+@import url('navbar.css');
+@import url('footer.css');
+
+
+.content-holder{
+    text-align: center;
+    width:80%;
+    margin: 0 auto;
+  
+}
+
+
+
+.product-item-mid img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.product-item{
+    
+    margin: 0 auto 20px auto;
+    
+}
+
+.frthr-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+@media (max-width:1000px){
+    .item-holder{
+        flex-direction: column;
+    }
+    .product-item-right{
+        margin-top: 10px;
+    }
+}
+

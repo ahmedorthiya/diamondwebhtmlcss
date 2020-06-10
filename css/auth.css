@@ -1,0 +1,38 @@
+@import url('navbar.css');
+@import url('footer.css');
+@import url('common-utilities.css');
+
+.social-login{
+    text-align: center;
+}
+
+.content-holder{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input{
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    margin:20px;
+   
+
+}
+
+.input:focus{
+    outline: none;
+}

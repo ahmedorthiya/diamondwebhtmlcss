@@ -1,0 +1,32 @@
+@import url('navbar.css');
+@import url('footer.css');
+@import url('common-utilities.css');
+
+
+.content-holder{
+    height: 100vh;
+}
+
+input{
+    width: 150px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px;
+
+}
+input:focus{
+    outline: none;
+
+}
+
+button{
+    outline: none;
+}
+
+.permanent-address{
+  
+    margin: 5px;
+    display:none;
+    flex-direction:column;
+}
