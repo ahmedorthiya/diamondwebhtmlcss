@@ -2,6 +2,13 @@
 @import url('footer.css');
 
 
+
+
+
+body{
+    background-color: #f0f0f0;
+}
+
 .content-holder{
     text-align: center;
     width:80%;
