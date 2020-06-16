@@ -11,3 +11,16 @@
 .btn-hover:hover{
      letter-spacing: 1.1em;
 }
+
+.text-animation{
+        font-size: 16px;
+        font-weight: 500;
+        animation: textAnimation 1309ms  infinite alternate ;
+}
+
+@keyframes textAnimation{
+    
+    100%{
+        font-size: 20px;
+    }
+}

@@ -1,5 +1,6 @@
 @import url('navbar.css');
 @import url('footer.css');
+@import url('common-utilities.css');
 
 
 body{
@@ -33,13 +34,68 @@ border-radius: 50%;
 }
 
 .content-holder{
-    width: 80%;
+    width: 95%;
     margin:auto;
+    height: 100%;
  
    
 }
 
+.text-14mm{
+    width: 50%;
+    background-color: red;
+}
 
+
+.set-filters{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.filters{
+    width: 80%;
+    margin: auto;
+    transition: all 2s ease-in;
+}
+
+.set-filters{
+    cursor: pointer;
+}
+
+
+.set-filters p{
+    font-size: 13px;
+    display: block;
+}
+
+.invisible{
+    animation: decreaseOpacity 5s ease-in-out  1 forward ;
+}
+
+.visible{
+    animation: increaseOpacity 2s ease-in-out  1 forward ;
+}
+
+.show-filters{
+    display: none;
+}
+
+.filter-hd-text{
+    font-size: 19px;
+}
+
+
+
+
+@media (max-width:769px){
+    .set-filters p{
+        display: none;
+    }
+}
 
 
  

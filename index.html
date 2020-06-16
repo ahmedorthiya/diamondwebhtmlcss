@@ -13,14 +13,14 @@
       
     </head>
     <body>
-        <!--   ============== navbar ============ -->
+     
        
         <div class="div-container">
 
-
+   <!--   ============== navbar ============ -->
         <nav class="nav-container"> 
            <div class="nav-topbar d-flex flex-wrap justify-content-around align-items-center">
-               <h6><a href="index.html" class="text-white">Home</a></h6>
+               <h6><a href="index.html" class="text-white"><img width="50px" height="50px" src="assets/PiArtLogo.svg" alt=""></a></h6>
                <h6><a href="cart.html" class="text-white"><img width="50px" height="50px" src="https://image.flaticon.com/icons/svg/777/777205.svg" alt=""></a></h6>
                <h6><a href="login.html" class="text-white">Login</a></h6>
                <h6><a href="signup.html" class="text-white">Sign Up</a></h6>
@@ -31,44 +31,63 @@
 
            </div>
 
-           <div class="nav-mid-body text-center">
-            <h3><a href="#" class="text-white">Gemstones</a></h3><br>
+           <div class="nav-mid-body main-options text-center">
+            <h3><a href="#" class="gemstones-further-option text-white" >Gemstones</a></h3><br>
  
-            <h3><a href="#" class="text-white">Rings</a></h3><br>
-            <h3><a href="#" class="text-white">Neck</a></h3><br>
-            <h3><a href="#" class="text-white">Ear</a></h3><br>
+            <h3><a href="#" class="rings-further-option text-white"  >Rings</a></h3><br>
+            <h3><a href="#" class="neck-further-option text-white"  >Neck</a></h3><br>
+            <h3><a href="#" class="ear-further-option text-white"  >Ear</a></h3><br>
          
            </div>
+
+           <div class="further-options nav-mid-body text-center">
+            <h3><a href="#" class="text-white">Option 1</a></h3><br>
+ 
+            <h3><a href="#" class="text-white">Option 2</a></h3><br>
+            <h3><a href="#" class="text-white">Option 3</a></h3><br>
+            <h3><a href="#" class="text-white">Option 4</a></h3><br>
+            <h3><a href="#" class="text-white back-to-main-options">Back</a></h3><br>
+         
+           </div>
+
         </nav>
+
+
         <div class="menu-heading">
             
-            <h4 class="open-menu text-center p-1" style="cursor: pointer;">Menu</h4>
+            <h6 class="open-menu text-center" style="cursor: pointer;"><b>Menu</b></h6>
         </div>
         <div class="menu-btn">
             <img src="https://image.flaticon.com/icons/svg/1828/1828859.svg" width="30px" height="30px" alt="">
         </div>
-        <div class="content-holder">
+
+
+
+<!--  =================== navbar ends here =================  -->
+
+
+
+        <div class="content-holder ">
             <!--  ======================= filters =====================  -->
 
 
              <div class="filters">
-                 <h3>Set Filters</h3>
-
-<!--                  <div class="color">
-                 
-<input class="color-input" value="#F80" data-huebee />
-
-
-<button class="color-button btn-primary">Select color</button>
+               
+                 <div class="set-filters">
+                     <h6 >Filter <span style="margin-left: 8px;">-</span> </h6>
+                     <h3 class="ml-auto mr-auto">14mm</h3>
+                     <p class="mt-auto mb-auto text-uppercase" style="font-size: 12px;">Filter Reset</p>
+                    </div>
 
  
-                     
-                 </div> -->
+                 <div class="show-filters">  
 
+
+                 <h6 class="filter-hd-text" style="margin-top: 22px;"><b>COLOR</b></h6>   
                  <div id="picker"></div>
                  <br>
-                 <div class="size">
-                    <h4>Size</h4>
+                 <div class="size" >
+                    <h6 class="filter-hd-text" style="margin-top: 35px;"> <b>SIZE</b></h6> 
                     <span>32 
                      
                         <span> 35</span> 
@@ -90,8 +109,8 @@
                             <span> 51 </span> 
                             <span  52</span>
                  </div>
-                 <div class="gemstones">
-                    <h4>Gemstones</h4>
+                 <div class="gemstones mt-3">
+                    <h6 class="filter-hd-text" style="margin-top: 35px;"><b>GEMSTONE</b></h6> 
                    <span> Amethyst</span> 
                    <span>Aquamarin </span>
                    <span>Bergkristall </span>
@@ -101,7 +120,7 @@
                    <span>Feueropal</span> 
                    <span>Goldberyll </span>
                    <span>Goshenite </span>
-                   <span>>Granat </span>
+                   <span>Granat </span>
                    <span>Lolith </span>
                    <span>Kunzite</span> 
                    <span>Malaya </span>
@@ -125,14 +144,18 @@
                    <span>Smaragd</span>
                  </div>
 
-                 <div class="metals">
-                    <h4>Metals</h4>
-                   <span> PlatinumRose </span>
+                 <div class="metals mt-3">
+                    <h6 class="filter-hd-text" style="margin-top: 35px;"><b>METAL</b></h6> 
+                   <span> Platinum </span>
+                   <span>Rose</span>
                    <span> Red </span>
                    <span>gold </span>
-                   <span>GoldSilver</span>
+                   <span>Gold</span>
+                   <span>Silver</span>
                  </div>
              </div>
+
+            </div> 
 
 
             <!--  ============ content here =============== -->
@@ -141,69 +164,78 @@
             <div class="d-flex flex-wrap justify-content-around">
                 <!-- item 1 -->
                 <div class="item">
-                    <a href="product-details.html"><img class="img" src="assets/Cherry_Blossom_Sunset_Tourmaline_++_14mm.jpg" alt=""></a>
-                    <div class="item-content">
-                         <h4>Demo Article</h4>
-                         <p>Eur 100</p>
+                    <a href="product-details.html"><img class="img" src="assets/productgif.gif" alt=""></a>
+                    <div class="item-content ">
+                        <div class="text-animation text-uppercase">Tansanite</div>
+                        <p>£ 12,400-1960 Euro</p>
                     </div>
                 </div>
 
                   <!-- item 2 -->
                   <div class="item">
-                      <a href="product-details.html">
-                    <img class="img" src="assets/golden_beryl_++_14mm.jpg" alt="">
-                </a>
-                    <div class="item-content">
-                         <h4>Demo Article</h4>
-                         <p>Eur 50</p>
+                    <a href="product-details.html"><img class="img" src="assets/productgif.gif" alt=""></a>
+                    <div class="item-content ">
+                        <div class="text-animation text-uppercase">Tansanite</div>
+                        <p>£ 12,400-1960 Euro</p>
                     </div>
                 </div>
 
                    <!-- item 3 -->
                    <div class="item">
-                    <a href="product-details.html">
-                    <img class="img" src="assets/Unique_Tansanite_14mm_++.jpg" alt="">
-                    </a>
-                    <div class="item-content">
-                         <h4>Demo Article</h4>
-                         <p>Eur 50</p>
+                    <a href="product-details.html"><img class="img" src="assets/productgif.gif" alt=""></a>
+                    <div class="item-content ">
+                        <div class="text-animation text-uppercase">Tansanite</div>
+                        <p>£ 12,400-1960 Euro</p>
                     </div>
                 </div>
 
 
                    <!-- item 4 -->
                    <div class="item">
-                    <a href="product-details.html">
-                    <img class="img" src="assets/Unique_Tansanite_14mm_++.jpg" alt="">
-                    </a>
-                    <div class="item-content">
-                         <h4>Demo Article</h4>
-                         <p>Eur 50</p>
+                    <a href="product-details.html"><img class="img" src="assets/productgif.gif" alt=""></a>
+                    <div class="item-content ">
+                        <div class="text-animation text-uppercase">Tansanite</div>
+                        <p>£ 12,400-1960 Euro</p>
                     </div>
                 </div>
 
                  <!-- item 5 -->
                  <div class="item">
-                    <a href="product-details.html">
-                    <img class="img" src="assets/golden_beryl_++_14mm.jpg" alt="">
-                    </a>
-                    <div class="item-content">
-                         <h4>Demo Article</h4>
-                         <p>Eur 50</p>
+                    <a href="product-details.html"><img class="img" src="assets/productgif.gif" alt=""></a>
+                    <div class="item-content ">
+                        <div class="text-animation text-uppercase">Tansanite</div>
+                        <p>£ 12,400-1960 Euro</p>
                     </div>
                 </div>
 
 
                 <!-- item 6 -->
                 <div class="item">
-                    <a href="product-details.html">
-                    <img class="img" src="assets/Cherry_Blossom_Sunset_Tourmaline_++_14mm.jpg" alt="">
-                    </a>
-                    <div class="item-content">
-                         <h4>Demo Article</h4>
-                         <p>Eur 100</p>
+                    <a href="product-details.html"><img class="img" src="assets/productgif.gif" alt=""></a>
+                    <div class="item-content ">
+                        <div class="text-animation text-uppercase">Tansanite</div>
+                        <p>£ 12,400-1960 Euro</p>
                     </div>
                 </div>
+
+                <!-- item 7 -->
+                <div class="item">
+                    <a href="product-details.html"><img class="img" src="assets/productgif.gif" alt=""></a>
+                    <div class="item-content ">
+                        <div class="text-animation text-uppercase">Tansanite</div>
+                        <p>£ 12,400-1960 Euro</p>
+                    </div>
+              </div>
+
+                  <!-- item 8 -->
+                  <div class="item">
+                    <a href="product-details.html"><img class="img" src="assets/productgif.gif" alt=""></a>
+                    <div class="item-content ">
+                        <div class="text-animation text-uppercase">Tansanite</div>
+                        <p>£ 12,400-1960 Euro</p>
+                    </div>
+                </div>
+
 
 
 
@@ -211,7 +243,14 @@
             </div>
         </div>
 
-        <footer class="footer d-flex flex-wrap mt-5 justify-content-around align-items-center">
+        
+
+        <br><br>
+        <div class="footer-div">
+           <br>
+            <div class="hr-line mt-2 mb-1"></div>
+        <footer class="footer d-flex flex-wrap justify-content-around ">
+            
            <div class="footer-content-1">
                <h6><a href="#" class="text-white">Growing</a></h6>
                <h6><a href="#" class="text-white">Attractive</a></h6>
@@ -227,12 +266,15 @@
 
            </div>
            <div id="vr"></div>
-           <div class="footer-content-3 d-flex flex-wrap">
+           <div class="footer-content-3 ">
+               <div class="d-flex flex-wrap justify-content-center">
             <h6 class="mr-2 ml-2"><a href="#"><img src="https://image.flaticon.com/icons/svg/733/733566.svg" width="30px" height="30px" alt=""></a></h6>
             <h6 class="mr-2 ml-2"><a href="#"><img src="https://image.flaticon.com/icons/svg/1384/1384053.svg" width="30px" height="30px" alt=""></a></h6>
             <h6 class="mr-2 ml-2"><a href="#"><img src="https://image.flaticon.com/icons/svg/1384/1384060.svg" width="30px" height="30px" alt=""></a></h6>
             <h6 class="mr-2 ml-2"><a href="#"><img src="https://image.flaticon.com/icons/svg/733/733579.svg" width="30px" height="30px" alt=""></a></h6>
-           </div>
+        </div>
+          <h6>Social Affiliate Partner Programme</h6>  
+        </div>
            <div id="vr"></div>
            <div class="footer-content-4">
             <h6><a href="#" class="text-white">Latest</a></h6>
@@ -245,8 +287,11 @@
            </div>
 
         </footer>
+    </div>
         
     </div>
+
+  
 
 
         
@@ -259,6 +304,14 @@
         <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
         <script>
             var colorPicker = new iro.ColorPicker('#picker');
+            let showFilters = $(".show-filters");
+            $(".set-filters").on("click",function(){
+               if(showFilters.css("display") === 'block')
+                    showFilters.css("display","none");
+                else showFilters.css("display","block")    
+                
+               
+            })
         </script>
       
  

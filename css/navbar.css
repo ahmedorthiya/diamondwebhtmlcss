@@ -1,4 +1,11 @@
- 
+@font-face {
+    font-family: piartmodern;
+    src: url('fonts/PiArtModern.otf');
+  }
+
+  body{
+    font-family: piartmodern;
+} 
 
 .nav-container{ 
     position: absolute;
@@ -50,6 +57,10 @@
 }
 .menu-btn img{
     margin: auto;
+}
+
+.further-options{
+    display: none;
 }
 
 
